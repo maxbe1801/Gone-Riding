@@ -174,21 +174,45 @@ h4 {
   }
   /*fin stylisation des images */
 
-  /* début image côte à côte */
+  /* début 2 images côte à côte */
   * {
     box-sizing: border-box;
   }
 
-  .column {
+  .column2 {
     float: left;
     width: 50%;
     padding: 5px;
   }
   
   /* Clearfix (clear floats) */
-  .row::after {
+  .row2::after {
     content: "";
     clear: both;
     display: table;
   }
-  /*fin image côte à côte */
+  /*fin 2 images côte à côte */
+
+/* début 3 images côte à côte */
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*fin 2 images côte à côte */
+
+  /*début stylisation des vidéos */
+  video {
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+  }
+  /*fin stylisation des vidéos */
