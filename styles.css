@@ -4,7 +4,18 @@ h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
+    text-decoration: overline;
 }
+
+h3 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: left;
+}
+
  /*Début Bande pour logo au top */
 .band {
   position: relative;
@@ -150,3 +161,34 @@ h1 {
   .topnav.responsive .langue {float: right;}
   /* Fin Barre de navigation du Top */
   
+  /* Début Centrage des publications insta */
+  .instagram-media{margin:15px auto !important;}
+  /* Fin Centrage des publications insta */
+
+  /*début stylisation des images */
+  img {
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    width: 60%;
+  }
+  /*fin stylisation des images */
+
+  /* début image côte à côte */
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /*fin image côte à côte */
