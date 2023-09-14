@@ -182,7 +182,7 @@ h4 {
   .column2 {
     float: left;
     width: 50%;
-    padding: 5px;
+    padding: 1px;
   }
   
   /* Clearfix (clear floats) */
@@ -207,7 +207,16 @@ h4 {
   clear: both;
   display: table;
 }
-/*fin 2 images côte à côte */
+/*fin 3 images côte à côte */
+
+/* début image à droite de texte */
+
+.img_droite {
+  float: right;
+  padding: 5px;
+}
+
+/*fin image à droite de texte */
 
   /*début stylisation des vidéos */
   video {
@@ -216,3 +225,12 @@ h4 {
     display: block;
   }
   /*fin stylisation des vidéos */
+
+  /* début vidéo à droite de texte */
+
+.video_droite {
+  float: right;
+  padding: 5px;
+}
+
+/*fin video à droite de texte */
