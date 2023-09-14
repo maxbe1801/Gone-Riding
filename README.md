@@ -13,3 +13,6 @@ Une balise étant <[something]> + </[something]>
 3. css  
 Il y a des fois ou tu utilise du inline css (du css dans ton html) et des fois ou tu le met dans styles.css. 
 La méthode styles.css est de loin préféréable.
+Lecture rapide
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured
